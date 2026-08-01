@@ -132,7 +132,7 @@ public class DataBase{
         catch (Exception e)
         {
             e.printStackTrace();
-            log.warning("exception occured while closing");
+            log.warning("exception occurred while closing");
             unexpectedExceptionOccured = true;
         }
 
